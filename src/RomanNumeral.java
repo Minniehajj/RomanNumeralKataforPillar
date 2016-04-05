@@ -2,9 +2,13 @@
  * Created by Minni on 4/5/2016.
  */
 public class RomanNumeral {
+
     public static String arabicToRoman(int arabicNumber){
         StringBuilder result = new StringBuilder();
-        if (arabicNumber == 4){
+        if (arabicNumber==5){
+            result.append("V");
+        }
+        else if (arabicNumber == 4){
             result.append("IV");
         }
         else {

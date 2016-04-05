@@ -13,8 +13,14 @@ public class RomanNumeralTest {
         assertEquals("3", "III", RomanNumeral.arabicToRoman(3));
         assertEquals("12", "IIIIIIIIIIII", RomanNumeral.arabicToRoman(12));
     }
+
     @Test
     public void ConvertArabicNumberFourtoRomanNumeralFour() {
         assertEquals("4","IV", RomanNumeral.arabicToRoman(4));
+    }
+
+    @Test
+    public void ConvertArabicNumberFiveToRomanNumeralFive() {
+        assertEquals("5", "V", RomanNumeral.arabicToRoman(5));
     }
 }
