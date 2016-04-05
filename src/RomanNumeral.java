@@ -4,8 +4,14 @@
 public class RomanNumeral {
     public static String arabicToRoman(int arabicNumber){
         StringBuilder result = new StringBuilder();
-        for(int i = 0;i < arabicNumber; i++) {
-            result.append("I");
+        if (arabicNumber == 4){
+            result.append("IV");
+        }
+        else {
+            for (int i = 0; i < arabicNumber; i++)
+            {
+                result.append("I");
+            }
         }
         return result.toString();
     }
