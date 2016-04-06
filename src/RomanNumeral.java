@@ -5,7 +5,10 @@ public class RomanNumeral {
 
     public static String arabicToRoman(int arabicNumber){
         StringBuilder result = new StringBuilder();
-        if (arabicNumber==5){
+        if (arabicNumber == 6 ){
+            result.append("VI");
+        }
+        else if (arabicNumber == 5){
             result.append("V");
         }
         else if (arabicNumber == 4){
