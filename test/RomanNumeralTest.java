@@ -27,5 +27,12 @@ public class RomanNumeralTest {
     @Test
     public void ConvertArabicNumberSixToRomanNumeralSix() {
         assertEquals("6", "VI", RomanNumeral.arabicToRoman(6));
+        assertEquals("7", "VII", RomanNumeral.arabicToRoman(7));
+        assertEquals("8", "VIII", RomanNumeral.arabicToRoman(8));
+    }
+
+    @Test
+    public void ConvertArabicNumberNineToRomanNumeralNine() {
+        assertEquals("9", "IX", RomanNumeral.arabicToRoman(9));
     }
 }

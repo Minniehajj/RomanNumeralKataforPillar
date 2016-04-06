@@ -7,6 +7,11 @@ public class RomanNumeral {
         StringBuilder result = new StringBuilder();
         /* creating a new variable to prevent duplication and using loop to recur "I" */
         int numLeft = arabicNumber;
+       if (numLeft == 9)
+       {
+           result.append("IX");
+           numLeft -= 9;
+       }
         if (numLeft >= 5)
         {
             result.append("V");
