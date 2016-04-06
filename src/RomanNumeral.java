@@ -2,8 +2,8 @@
  * Created by Minni on 4/5/2016.
  */
 public class RomanNumeral {
-    private static int[] arabicNumbers = { 1000, 900,  500, 400, 100, 90, 50, 40, 10, 9, 5, 4, };
-    private static String[] romanNumerals = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV" };
+    private static int[] arabicNumbers = {3000, 2900, 2500, 2400, 2000, 1900, 1500, 1400, 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4 ,1};
+    private static String[] romanNumerals = {"MMM", "MMCM", "MMD", "MMCD", "MM", "MCM", "MM", "MCD" , "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
     public static String arabicToRoman(int arabicNumber){
         StringBuilder result = new StringBuilder();

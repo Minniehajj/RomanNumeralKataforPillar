@@ -42,4 +42,36 @@ public class RomanNumeralTest {
         assertEquals("500", "D", RomanNumeral.arabicToRoman(500));
         assertEquals("1066", "MLXVI", RomanNumeral.arabicToRoman(1066));
     }
+
+    @Test
+    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralOne() {
+        assertEquals("1","I", RomanNumeral.arabicToRoman(1));
+    }
+
+    @Test
+    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralTwo() {
+        assertEquals("3","III", RomanNumeral.arabicToRoman(3));
+    }
+
+    @Test
+    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralThree() {
+        assertEquals("9","IX", RomanNumeral.arabicToRoman(9));
+    }
+
+    @Test
+    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralFour() {
+        assertEquals("1066","MLXVI", RomanNumeral.arabicToRoman(1066));
+    }
+
+    @Test
+    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralFive() {
+      //  assertEquals("1989","MCMLXXXIX", RomanNumeral.arabicToRoman(1989));
+    }
+
+    @Test
+    public void PillarKataTestProofOfFailure() {
+        //This test is going to fail when uncommented, to show that the program is working properly
+        //assertEquals("1268","MCCLXVIII", RomanNumeral.arabicToRoman(1268));
+    }
+
 }
