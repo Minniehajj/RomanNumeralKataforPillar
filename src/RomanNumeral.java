@@ -2,19 +2,19 @@
  * Created by Minni on 4/5/2016.
  */
 public class RomanNumeral {
-    private static int[] arabicNumbers = {9, 5, 4};
-    private static String[] romanNumerals = {"IX", "V", "IV"};
+    private static int[] arabicNumbers = { 1000, 900,  500, 400, 100, 90, 50, 40, 10, 9, 5, 4, };
+    private static String[] romanNumerals = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV" };
 
     public static String arabicToRoman(int arabicNumber){
         StringBuilder result = new StringBuilder();
-        /* creating a new variable to prevent duplication and using loop to recur "I" */
+
         int numLeft = arabicNumber;
-        for (int i = 0; i<arabicNumbers.length; i++){
+        for (int i = 0; i < arabicNumbers.length; i++) {
             numLeft = attachRomanNumeral(numLeft, arabicNumbers[i], romanNumerals[i], result);
         }
-
-        for (int i = 0; i < numLeft; i++) {
+        while (numLeft >= 1) {
             result.append("I");
+            numLeft -= 1;
         }
         return result.toString();
     }

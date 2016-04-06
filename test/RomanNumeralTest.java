@@ -11,7 +11,7 @@ public class RomanNumeralTest {
         assertEquals("1","I", RomanNumeral.arabicToRoman(1));
         assertEquals("2", "II", RomanNumeral.arabicToRoman(2));
         assertEquals("3", "III", RomanNumeral.arabicToRoman(3));
-        assertEquals("12", "IXIII", RomanNumeral.arabicToRoman(12));
+        assertEquals("12", "XII", RomanNumeral.arabicToRoman(12));
     }
 
     @Test
@@ -28,11 +28,18 @@ public class RomanNumeralTest {
     public void ConvertArabicNumberSixToRomanNumeralSix() {
         assertEquals("6", "VI", RomanNumeral.arabicToRoman(6));
         assertEquals("7", "VII", RomanNumeral.arabicToRoman(7));
-        assertEquals("8", "VIII", RomanNumeral.arabicToRoman(8));
+       assertEquals("8", "VIII", RomanNumeral.arabicToRoman(8));
     }
 
     @Test
     public void ConvertArabicNumberNineToRomanNumeralNine() {
         assertEquals("9", "IX", RomanNumeral.arabicToRoman(9));
+    }
+
+    @Test
+    public void ConvertArabicNumbersInMultiplesOfOneHundredToRomanNumerals() {
+        assertEquals("1000", "M", RomanNumeral.arabicToRoman(1000));
+        assertEquals("500", "D", RomanNumeral.arabicToRoman(500));
+        assertEquals("1066", "MLXVI", RomanNumeral.arabicToRoman(1066));
     }
 }
