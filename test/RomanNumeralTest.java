@@ -65,13 +65,12 @@ public class RomanNumeralTest {
 
     @Test
     public void PillarKataTestCaseConvertArabicNumberToRomanNumeralFive() {
-      //  assertEquals("1989","MCMLXXXIX", RomanNumeral.arabicToRoman(1989));
+       assertEquals("1989","MCMLXXXIX", RomanNumeral.arabicToRoman(1989));
     }
 
     @Test
     public void PillarKataTestProofOfFailure() {
         //This test is going to fail when uncommented, to show that the program is working properly
-        //assertEquals("1268","MCCLXVIII", RomanNumeral.arabicToRoman(1268));
+        //assertEquals("1268","MCCLXVIIIV", RomanNumeral.arabicToRoman(1268));
     }
-
 }
