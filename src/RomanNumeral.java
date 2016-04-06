@@ -2,38 +2,28 @@
  * Created by Minni on 4/5/2016.
  */
 public class RomanNumeral {
+    private static int[] arabicNumbers = {9, 5, 4};
+    private static String[] romanNumerals = {"IX", "V", "IV"};
 
     public static String arabicToRoman(int arabicNumber){
         StringBuilder result = new StringBuilder();
         /* creating a new variable to prevent duplication and using loop to recur "I" */
         int numLeft = arabicNumber;
-       if (numLeft == 9)
-       {
-           result.append("IX");
-           numLeft -= 9;
-       }
-        if (numLeft >= 5)
-        {
-            result.append("V");
-            numLeft -= 5;
+        for (int i = 0; i<arabicNumbers.length; i++){
+            numLeft = attachRomanNumeral(numLeft, arabicNumbers[i], romanNumerals[i], result);
         }
-        if (numLeft == 4 )
-        {
-            result.append("IV");
-            numLeft -=4;
-        }
-        /* Code below is old and obsolete due to removal of duplication
-        else if (arabicNumber == 5){
-            result.append("V");
-        }
-        else if (arabicNumber == 4){
-            result.append("IV");
-        }
-        */
 
         for (int i = 0; i < numLeft; i++) {
             result.append("I");
         }
         return result.toString();
+    }
+    private static int attachRomanNumeral (int arabicNumber, int value, String roman, StringBuilder builder) {
+        int result = arabicNumber;
+        if (result >= value){
+            builder.append(roman);
+            result -= value;
+        }
+        return result;
     }
 }
