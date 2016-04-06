@@ -11,7 +11,7 @@ public class RomanNumeralTest {
         assertEquals("1","I", RomanNumeral.arabicToRoman(1));
         assertEquals("2", "II", RomanNumeral.arabicToRoman(2));
         assertEquals("3", "III", RomanNumeral.arabicToRoman(3));
-        assertEquals("12", "IIIIIIIIIIII", RomanNumeral.arabicToRoman(12));
+        assertEquals("12", "VIIIIIII", RomanNumeral.arabicToRoman(12));
     }
 
     @Test
