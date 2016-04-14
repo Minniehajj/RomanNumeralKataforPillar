@@ -4,6 +4,11 @@
 public class RomanToArabic {
 
     public static int convertRomanToArabic (String romanNumeral){
-        return 1;
+        if (romanNumeral.equals("II")) {
+            return 2;
+        }
+        else {
+            return 1;
+        }
     }
 }

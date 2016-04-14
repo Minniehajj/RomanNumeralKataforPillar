@@ -10,4 +10,8 @@ public class RomanToArabicTest {
     public void ConvertRomanNumeralOneToArabicNumberOne() {
         assertEquals("I",1, RomanToArabic.convertRomanToArabic("I"));
     }
+    @Test
+    public void ConvertRomanNumeralTwoToArabicNumberTwo() {
+        assertEquals("II",2, RomanToArabic.convertRomanToArabic("II"));
+    }
 }
