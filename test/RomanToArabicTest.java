@@ -7,10 +7,6 @@ import org.junit.Test;
 
 public class RomanToArabicTest {
     @Test
-    public void ConvertRomanNumeralOneToArabicNumberOne() {
-        assertEquals("I",1, RomanToArabic.convertRomanToArabic("I"));
-    }
-    @Test
     public void ConvertRomanNumeralTwoToArabicNumberTwo() {
         assertEquals("II",2, RomanToArabic.convertRomanToArabic("II"));
     }
@@ -27,11 +23,23 @@ public class RomanToArabicTest {
         assertEquals("VI",6, RomanToArabic.convertRomanToArabic("VI"));
     }
     @Test
-    public void ConvertRomanNumeralNineToArabicNumberNine() {
+    public void ConvertRomanNumeralTenToArabicNumberTen() {
+        assertEquals("X",10, RomanToArabic.convertRomanToArabic("X"));
+    }
+    @Test
+    public void PillarKataTestConvertRomanNumeralOnetoArabicNumberOne() {
+        assertEquals("III",3, RomanToArabic.convertRomanToArabic("III"));
+    }
+    @Test
+    public void PillarKataTestConvertRomanNumeralNinetoArabicNumberNine() {
         assertEquals("IX",9, RomanToArabic.convertRomanToArabic("IX"));
     }
     @Test
-    public void ConvertRomanNumeralTenToArabicNumberTen() {
-        assertEquals("X",10, RomanToArabic.convertRomanToArabic("X"));
+    public void PillarKataTestConvertRomanNumeralOneThousandSixtySixtoArabicNumberOneThousandSixtySix() {
+        assertEquals("MLXVI",1066, RomanToArabic.convertRomanToArabic("MLXVI"));
+    }
+    @Test
+    public void PillarKataTestConvertRomanNumeralOneThousandNineHundredEightyNinetoArabicNumberOneThousandNineHundredEightyNine() {
+        assertEquals("MCMLXXXIX",1989, RomanToArabic.convertRomanToArabic("MCMLXXXIX"));
     }
 }

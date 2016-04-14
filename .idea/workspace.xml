@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a56c1f-a224-42cb-957c-c31f46b3f988" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RomanNumeralKataForPillar/RomanToArabic.class" afterPath="$PROJECT_DIR$/out/production/RomanNumeralKataForPillar/RomanToArabic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RomanToArabic.java" afterPath="$PROJECT_DIR$/src/RomanToArabic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RomanToArabicTest.java" afterPath="$PROJECT_DIR$/test/RomanToArabicTest.java" />
     </list>
     <ignored path="RomanNumeralKataForPillar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToArabicTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RomanToArabicTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RomanToArabicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToArabic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RomanToArabic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RomanToArabic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="578">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -115,8 +113,8 @@
         <option value="$PROJECT_DIR$/test/RomanToArabicTesst.java" />
         <option value="$PROJECT_DIR$/src/RomanNumeral.java" />
         <option value="$PROJECT_DIR$/test/RomanNumeralTest.java" />
-        <option value="$PROJECT_DIR$/test/RomanToArabicTest.java" />
         <option value="$PROJECT_DIR$/src/RomanToArabic.java" />
+        <option value="$PROJECT_DIR$/test/RomanToArabicTest.java" />
       </list>
     </option>
   </component>
@@ -825,14 +823,11 @@
       <updated>1459879396957</updated>
       <workItem from="1459879398200" duration="24473000" />
       <workItem from="1459980161196" duration="3729000" />
-      <workItem from="1460639867992" duration="12152000" />
+      <workItem from="1460639867992" duration="12429000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanToArabicTest - 2016.04.14 at 12h 08m 16s.xml">
-      <configuration name="RomanToArabicTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanToArabicTest - 2016.04.14 at 12h 08m 40s.xml">
       <configuration name="RomanToArabicTest" configurationId="JUnit" />
     </history-entry>
@@ -860,9 +855,12 @@
     <history-entry file="RomanToArabicTest - 2016.04.14 at 14h 02m 04s.xml">
       <configuration name="RomanToArabicTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanToArabicTest - 2016.04.14 at 14h 08m 08s.xml">
+      <configuration name="RomanToArabicTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40354000" />
+    <option name="totallyTimeSpent" value="40631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
@@ -876,7 +874,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1048,6 +1046,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RomanNumeral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RomanToArabic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1066,29 +1080,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RomanNumeral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/RomanToArabicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RomanToArabic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
