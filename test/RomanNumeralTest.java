@@ -9,9 +9,6 @@ public class RomanNumeralTest {
     @Test
     public void ConvertArabicNumberOneToRomanNumeralOne() {
         assertEquals("1","I", RomanNumeral.arabicToRoman(1));
-        assertEquals("2", "II", RomanNumeral.arabicToRoman(2));
-        assertEquals("3", "III", RomanNumeral.arabicToRoman(3));
-        assertEquals("12", "XII", RomanNumeral.arabicToRoman(12));
     }
 
     @Test
@@ -27,24 +24,23 @@ public class RomanNumeralTest {
     @Test
     public void ConvertArabicNumberSixToRomanNumeralSix() {
         assertEquals("6", "VI", RomanNumeral.arabicToRoman(6));
-        assertEquals("7", "VII", RomanNumeral.arabicToRoman(7));
-       assertEquals("8", "VIII", RomanNumeral.arabicToRoman(8));
     }
 
     @Test
     public void ConvertArabicNumberNineToRomanNumeralNine() {
+
         assertEquals("9", "IX", RomanNumeral.arabicToRoman(9));
     }
 
     @Test
     public void ConvertArabicNumbersInMultiplesOfOneHundredToRomanNumerals() {
-        assertEquals("1000", "M", RomanNumeral.arabicToRoman(1000));
+        assertEquals("100", "C", RomanNumeral.arabicToRoman(100));
         assertEquals("500", "D", RomanNumeral.arabicToRoman(500));
-        assertEquals("1066", "MLXVI", RomanNumeral.arabicToRoman(1066));
+        assertEquals("1000", "M", RomanNumeral.arabicToRoman(1000));
     }
 
     @Test
-    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralOne() {
+    public void PillarKataTestCaseConvertArabicNumberOneToRomanNumeralOne() {
         assertEquals("1","I", RomanNumeral.arabicToRoman(1));
     }
 
@@ -54,17 +50,17 @@ public class RomanNumeralTest {
     }
 
     @Test
-    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralThree() {
+    public void PillarKataTestCaseConvertArabicNumberNineToRomanNumeralNine() {
         assertEquals("9","IX", RomanNumeral.arabicToRoman(9));
     }
 
     @Test
-    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralFour() {
+    public void PillarKataTestCaseConvertArabicNumberOneThousandSixtySixToRomanNumeralOneThousandSixtySix() {
         assertEquals("1066","MLXVI", RomanNumeral.arabicToRoman(1066));
     }
 
     @Test
-    public void PillarKataTestCaseConvertArabicNumberToRomanNumeralFive() {
+    public void PillarKataTestCaseConvertArabicNumberOneThousandNineHundredEightyNineToRomanNumeralOneThousandNineHundredEightyNine() {
        assertEquals("1989","MCMLXXXIX", RomanNumeral.arabicToRoman(1989));
     }
 

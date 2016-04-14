@@ -13,11 +13,6 @@ public class RomanNumeral {
         {
             numLeft = attachRomanNumeral(numLeft, arabicNumbers[i], romanNumerals[i], result);
         }
-        /*while (numLeft >= 1)
-        {
-            result.append("I");
-            numLeft -= 1;
-        }*/
         return result.toString();
     }
     private static int attachRomanNumeral (int arabicNumber, int value, String roman, StringBuilder builder) {
